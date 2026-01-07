@@ -1,1 +1,7 @@
-
+eureka:
+  instance:
+    prefer-ip_address: true
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
